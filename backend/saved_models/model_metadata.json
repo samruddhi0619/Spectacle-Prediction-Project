@@ -1,0 +1,48 @@
+{
+  "model_architecture": "ResNet-18 Feature-Fused Binary Classifier",
+  "task": "Spectacle Requirement Screening (Binary)",
+  "best_val_accuracy": 100.0,
+  "total_training_time_sec": 636.4,
+  "classes": [
+    "No Spectacles Needed",
+    "Spectacles Needed"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0494,
+      "train_acc": 98.26,
+      "val_loss": 0.0025,
+      "val_acc": 100.0,
+      "val_no_spectacles_acc": 100.0,
+      "val_spectacles_needed_acc": 100.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0028,
+      "train_acc": 100.0,
+      "val_loss": 0.0006,
+      "val_acc": 100.0,
+      "val_no_spectacles_acc": 100.0,
+      "val_spectacles_needed_acc": 100.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0013,
+      "train_acc": 100.0,
+      "val_loss": 0.0004,
+      "val_acc": 100.0,
+      "val_no_spectacles_acc": 100.0,
+      "val_spectacles_needed_acc": 100.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0009,
+      "train_acc": 100.0,
+      "val_loss": 0.0003,
+      "val_acc": 100.0,
+      "val_no_spectacles_acc": 100.0,
+      "val_spectacles_needed_acc": 100.0
+    }
+  ]
+}
